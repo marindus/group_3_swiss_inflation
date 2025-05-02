@@ -7,6 +7,7 @@ from scipy import stats
 # Title of the Web App
 st.title("Swiss Inflation Analysis (2000–2024)")
 st.write("This simple web application shows inflation data, visualizations, and a statistical comparison.")
+st.write("By Dusan Marinkovic, Denise Aeschlimann and Harish Ketheeswaran")
 
 # Load data from SQLite database
 conn = sqlite3.connect('inflation_ch.db')
